@@ -8,17 +8,18 @@ function ContactForm() {
   const containerStyle = {
     maxWidth: '600px',
     margin: '0 auto',
-    padding: '10px',
+    padding: '20px',
     border: '1px solid #ccc',
-    borderRadius: '5px',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
+    borderRadius: '10px',
+    boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)',
     background: '#f5f5f5',
+    fontFamily: 'Arial, sans-serif'
   };
 
   const cardStyle = {
-    padding: '20px',
+    padding: '30px',
     border: '1px solid #ccc',
-    borderRadius: '5px',
+    borderRadius: '10px',
     marginBottom: '20px',
     background: '#e6f5ff',
   };
@@ -27,20 +28,19 @@ function ContactForm() {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: '10px',
-    
+    marginBottom: '15px',
   };
 
-
-     const logoStyle = {
-    maxWidth: '180px',
+  const logoStyle = {
+    maxWidth: '200px',
     display: 'block',
     margin: '0 auto',
-    marginBottom: ' 25px',
-  
+    marginBottom: '25px',
+    border: '2px solid #007bff',
+    borderRadius: '15px',
+    boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)',
+    backgroundColor: '#f8f9fa',
   };
-  
- 
 
   const [name, setName] = useState('');
   const [contactNumber, setContactNumber] = useState('');
